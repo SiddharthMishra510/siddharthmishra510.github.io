@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Siddharth Mishra Portfolio</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/ionicons.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #308bf6;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+
+    #myBtn:hover {
+      background-color: #555;
+    }
+  </style>
+
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <script>
+    // Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+    // $(document).ready(function () {
+    //   $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 20) {
+    //       $('#toTopBtn').fadeIn();
+    //     } else {
+    //       $('#toTopBtn').fadeOut();
+    //     }
+    //   });
+
+    //   $('#toTopBtn').click(function () {
+    //     $("html, body").animate({
+    //       scrollTop: 0
+    //     }, 1000);
+    //     return false;
+    //   });
+    // });
+  </script>
+
+  <!-- <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li style="float:right"><a class="active" href="#about">About</a></li>
+  </ul> -->
+
+  <div class="KW_progressContainer">
+    <div class="KW_progressBar">
+    </div>
+  </div>
+
+  
+
+  <div class="page">
+
+    <!-- <nav id="colorlib-main-nav" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+        <div class="img" style="background-image: url(images/me.jpg);"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">Siddharth Mishra</a></h1>
+
+              <ul>
+                <li class="active"><a href="index.html"><span><small>01</small>Home</span></a></li>
+                <li><a href="#about"><span><small>02</small>Resume</span></a></li>
+                <li><a href="#Services"><span><small>03</small>Services</span></a></li>
+                <li><a href="#ftco-section"><span><small>04</small>Portfolio</span></a></li>
+                <li><a href="#"><span><small>05</small>Blog</span></a></li>
+                <li><a href="contact.html"><span><small>02</small>Contact</span></a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
+
+    <div id="colorlib-page">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experiene</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="colorlib-navbar-brand">
+                <a class="colorlib-logo" href="index.html"><span class="logo-img"
+                    style="background-image: url(images/me.jpg);"></span>Siddharth Mishra</a>
+              </div>
+              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="home-slider owl-carousel js-fullheight">
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center"
+              data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p class="scroll">Hello! I'm</p>
+                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Siddharth Mishra</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-item js-fullheight">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row slider-text align-items-center text-center justify-content-center"
+              data-scrollax-parent="true">
+              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <p><a href="#" class="scroll">A Game Programmer</a></p>
+                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">from Navi Mumbai</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END slider -->
+
+      <div id="about">
+        <section class="ftco-section about-section">
+          <div class="container">
+            <div class="row d-flex" data-scrollax-parent="true">
+              <div class="col-md-4 author-img" style="background-image: url(images/me.jpg);"
+                data-scrollax=" properties: { translateY: '-70%'}"></div>
+              <div class="col-md-2"></div>
+              <div class="col-md-6 wrap ftco-animate">
+                <div class="about-desc">
+                  <h1 class="bold-text">About</h1>
+                  <div class="p-5">
+                    <h2 class="mb-5">Hi! I'm Siddharth Mishra</h2>
+                    <p> I bring 2+ years of experience in the field of developing games. I have hands-on experience in
+                      using best practices for improving code, adding different gameplay features, participating in
+                      story
+                      development, leading
+                      brainstorms and troubleshooting program issues, a multidisciplinary skillset excelling in
+                      effective
+                      communication and collaboration as a leader and an individual contributor. </p>
+
+                    <ul class="ftco-footer-social list-unstyled mt-4">
+
+                      <li class="ftco-animate"><a href="https://www.linkedin.com/in/siddharth-mishra-5105/"><span
+                            class="icon-linkedin"></span></a></li>
+                      <li><a href=" https://wa.me/+91 9518992570?text=Let's talk about games !!"><span
+                            class="icon-whatsapp"></span></a></li>
+                      <li class="ftco-animate"><a
+                          href="https://play.google.com/store/apps/developer?id=GameNagri+Studio&hl=en_IN&gl=US"><span
+                            class="icon-android2"></span></a></li>
+                      <li><a href="https://github.com/SiddharthMishra510"><span class="icon-github"></span></a></li>
+
+                    </ul>
+
+                    <h5>Contact me here!</h5>
+                    <p>Email: siddharthmishra5105@gmail.com</p>
+                    <p>Phone: +91 9518992570</p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="ftco-section" id="services">
+        <div class="container" id="services">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Services</span>
+              <h2>What I Do?</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="oi oi-script"></span></div>
+
+                <div class="media-body">
+                  <h3 class="heading">Game Programming</h3>
+                  <h3 class="heading">Rapid Prototyping</h3>
+                  <h3 class="heading">Game Architecture Design</h3>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="oi oi-puzzle-piece"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Game Designing</h3>
+                  <h3 class="heading"></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
+              <div class="media block-6 services p-3 py-4 d-block text-center">
+                <div class="icon mb-3"><span class="oi oi-briefcase"></span></div>
+                <div class="media-body">
+                  <h3 class="heading">Game Production</h3>
+                  <h3 class="heading"></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section">
+        <div class="container" id="portfolio">
+
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portfolio</span>
+              <h2>Past Work</h2>
+            </div>
+          </div>
+
+          <div class="row no-gutters">
+
+            <!-- Ball Run game 1-->
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                                   <div class="icon d-flex text-center justify-content-center align-items-center">
+                                     <span class="icon-search"></span>
+                                   </div>
+                                 </a>-->
+
+              <video id="roomVideo" controls autoplay muted loop>
+                <source src="https://www.dropbox.com/s/w33e0y7gft04und/Ball%20Run.mp4?dl=1">
+                Your browser does not support the video tag.
+              </video>
+
+              <div class="text">
+                <h4 class="subheading">Ball Run</h4>
+                <h2 class="heading">A 2D Platformer</h2>
+                <p>Designed and developed an original 2D Platformer game
+                  made with Unity Engine where a ball runs in different environments to hit the skittles. </p>
+              </div>
+            </div>
+
+            <!-- Keep It Up game 2-->
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                     <div class="icon d-flex text-center justify-content-center align-items-center">
+                       <span class="icon-search"></span>
+                     </div>
+                   </a>-->
+
+              <div class="text">
+                <h4 class="subheading">Keep It Up</h4>
+                <h2 class="heading">A 3D arcade UFO game</h2>
+                <p> Designed and developed an original 3D arcade game made
+                  with Unity Engine where the player as a UFO abducts cows to
+                  stay fuelled and make high scores.</p>
+              </div>
+
+              <video id="roomVideo" controls autoplay muted loop>
+                <source src="https://www.dropbox.com/s/9py7c9iok8r064l/Keep%20IT%20Up.mp4?dl=1" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <!-- Room game 3-->
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>-->
+
+              <video id="roomVideo" controls autoplay muted loop>
+                <source src="https://www.dropbox.com/s/72wu58fdz96ssxx/room2.MP4?dl=1" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+
+              <div class="text">
+                <h4 class="subheading">Room Puzzle</h4>
+                <h2 class="heading">Escape Room Game</h2>
+                <p>Developed a 3D puzzle game with escape room-basede mechanices in Unity.</p>
+
+              </div>
+            </div>
+
+            <!-- Crazy Thief 4-->
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                     <div class="icon d-flex text-center justify-content-center align-items-center">
+                       <span class="icon-search"></span>
+                     </div>
+                   </a>-->
+
+              <div class="text">
+                <h4 class="subheading">Crazy Thief</h4>
+                <h2 class="heading">A delievery game to gain ultimate currency : PUNYA </h2>
+                <p>Designed and developed an original 2D pixelated arcade game
+                  where the player is a delivery boy who earns Punya (Blessings)
+                  by picking up and dropping food deliveries. Made this game
+                  for Beamble’s Game-A-Thon 2020, a 48-hour game jam.</p>
+              </div>
+
+              <video id="roomVideo" controls autoplay muted loop>
+                <source src="https://www.dropbox.com/s/ibewuugit2eby76/Crazy%20Thief.mp4?dl=1" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <!-- Ludo 2070 5-->
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <!-- <div style="padding-top: 5%">
+                        <iframe src="https://www.youtube-nocookie.com/embed/3ZUYxs6ssJw?modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&controls=0" width="700" height="415" style="width: 100%; height: 50%; "></iframe>
+                       </div>-->
+              <div class="video-container">
+                <iframe
+                  src="https://www.youtube.com/embed/3ZUYxs6ssJw?modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&controls=0&loop=1"
+                  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <!--
+                        <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-3.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+            
+                        </a> -->
+              <div class="text">
+                <div id="LudoVideoText" style="margin-left: -30%">
+                  <h4 class="subheading">Ludo 2070</h4>
+                  <h2 class="heading"><a
+                      href="https://www.youtube.com/embed/3ZUYxs6ssJw?modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&controls=0&loop=1">
+                      3D Board Game with Powerups</a></h2>
+                  <p>Ludo 2070, a 3D, Online Multiplayer, next-gen Ludo variant with a never-seen-before system of
+                    Powerups, using
+                    which a player can influence the outcome of the dice roll to their favor.
+                    Worked as the Studio Head, Game Programmer and Game Designer for this game.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Punya Run 6-->
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                     <div class="icon d-flex text-center justify-content-center align-items-center">
+                       <span class="icon-search"></span>
+                     </div>
+                   </a>-->
+
+              <div class="text">
+                <h4 class="subheading">PUNYA RUN</h4>
+                <h2 class="heading">A pixelated 2D arcade game</h2>
+                <p>Designed and developed an original 2D pixelated arcade game
+                  where the player is a delivery boy who earns Punya (Blessings)
+                  by picking up and dropping food deliveries. Made this game
+                  for Beamble’s Game-A-Thon 2020, a 48-hour game jam.</p>
+              </div>
+
+              <video id="roomVideo" controls autoplay muted loop>
+                <source src="https://www.dropbox.com/s/fcgenlrwvhjy739/PunyaRun.mp4?dl=1" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+            <!--Snowball racer Run 7-->
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                                               <div class="icon d-flex text-center justify-content-center align-items-center">
+                                                 <span class="icon-search"></span>
+                                               </div>
+                                             </a>-->
+
+              <video id="roomVideo" controls autoplay muted loop>
+                <source src="https://www.dropbox.com/s/zwdrn1i2266ik6p/Snowball%20Racer.mp4?dl=1">
+                Your browser does not support the video tag.
+              </video>
+
+              <div class="text">
+                <h4 class="subheading">Snowball Racer</h4>
+                <h2 class="heading">A hypercasual racing adventure</h2>
+                <p>Developed a 3D hypercasual game where the player is a rolling snowball racing down a snow mountain,
+                  consuming everything smaller than itself. Made with Unity Engine. </p>
+              </div>
+            </div>
+
+            <!-- Choice Runner 8-->
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+              <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                     <div class="icon d-flex text-center justify-content-center align-items-center">
+                       <span class="icon-search"></span>
+                     </div>
+                   </a>-->
+
+              <div class="text">
+                <h4 class="subheading">Choice Runner</h4>
+                <h2 class="heading">A hypercasual action game</h2>
+                <p>Developed a 3D hypercasual action game where the player goes through a series of fun decisions
+                  to make while being in a race. Made with Unity Engine. </p>
+              </div>
+
+              <video id="roomVideo" controls autoplay muted loop>
+                <source src="https://www.dropbox.com/s/f46qkucyq770xcf/Choice%20Runner.mp4?dl=1" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
+          </div>
+          <!-- Project Paryavaran 9 -->
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <!-- <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+                                   <div class="icon d-flex text-center justify-content-center align-items-center">
+                                     <span class="icon-search"></span>
+                                   </div>
+                                 </a>-->
+
+            <video id="roomVideo" controls autoplay muted loop>
+              <source src="https://www.dropbox.com/s/855y2yylbv258z5/Project_Paryavaran.mp4?dl=1">
+              Your browser does not support the video tag.
+            </video>
+
+            <div class="text">
+              <h4 class="subheading">Project Paryavaran (Project Environment)</h4>
+              <h2 class="heading">A general awareness game in a very interactive manner</h2>
+              <p>For Indian Government we made this game to spread awareness about our mother nature</p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="ftco-section ftco-counter" id="section-counter">
+      <div class="container" id="experience">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span>Experience</span>
+            <h2>I love to share my work</h2>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-start">
+          <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <span class="ftco-label">Internships</span>
+                <strong class="number" data-number="2">0</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <span class="ftco-label">Jobs</span>
+                <strong class="number" data-number="2">0</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <span class="ftco-label">Project done</span>
+                <strong class="number" data-number="20">0</strong><strong class="number">+</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-end">
+          <div class="col-md-5 counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <span class="ftco-label">Bugs Found and Resolved</span>
+                <strong class="number" data-number="∞">0</strong><strong class="number"></strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container" id="contact">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-5 text-center">
+            <div class="ftco-footer-widget mb-5">
+              <ul class="ftco-footer-social list-unstyled">
+
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/siddharth-mishra-5105/"><span
+                      class="icon-linkedin"></span></a></li>
+                <li><a href=" https://wa.me/+91 9518992570?text=Let's talk about games !!"><span
+                      class="icon-whatsapp"></span></a></li>
+                <li class="ftco-animate"><a
+                    href="https://play.google.com/store/apps/developer?id=GameNagri+Studio&hl=en_IN&gl=US"><span
+                      class="icon-android2"></span></a></li>
+                <li><a href="https://github.com/SiddharthMishra510"><span class="icon-github"></span></a></li>
+
+              </ul>
+            </div>
+            <div class="ftco-footer-widget">
+              <h2 class="mb-3">Contact Me</h2>
+              <p class="h4 email">siddharthmishra5105@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+          stroke="#F96D00" />
+      </svg></div>
+
+  </div>
+
+  </div>
+
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAGor56v8MP504b2Z8kT1MJBB31EWV2Iyc",
+      authDomain: "pulkitguglanidotme.firebaseapp.com",
+      databaseURL: "https://pulkitguglanidotme.firebaseio.com",
+      projectId: "pulkitguglanidotme",
+      storageBucket: "pulkitguglanidotme.appspot.com",
+      messagingSenderId: "590186349149",
+      appId: "1:590186349149:web:b43cd0e5e7e67747fd43b4",
+      measurementId: "G-B8K0D3R5KE"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <script src="/__/firebase/7.17.1/firebase.js"></script>
+  <script src="/__/firebase/init.js"></script>
+  <script src="js/firebaseScripts.js"></script>
+
+
+  <script type="text/javascript">
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    var element = document.getElementById('text');
+    if (isMobile) {
+      document.getElementById("roomVideo").style.maxHeight = "30%";
+      document.getElementById("roomVideo2").style.maxHeight = "35%";
+
+      //document.getElementById("quote").innerText="fuck quote in android";
+      var x = document.getElementsByClassName("video-container");
+      x[0].getElementsByTagName("iframe")[0].style.width = "100%";
+      x[0].getElementsByTagName("iframe")[0].style.height = "100%";
+      document.getElementById("LudoVideoText").style.marginLeft = "1%";
+      var y = document.getElementsByClassName("resp-container");
+      y[0].style.paddingTop = "145%";
+      /*x[0].style.width = "100%";
+      x[0].style.height = "100%";*/
+      /*document.getElementById("LudoVideo").style.width = "100%";
+      document.getElementById("LudoVideo").style.height = "100%";*/
+    } else {
+
+      // document.getElementById("quote").innerText="fuck quote in desktop";
+    }
+  </script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+<style>
+  .resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    border: 0;
+  }
+
+  .resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 75%;
+  }
+
+  #roomVideo {
+    outline: none;
+    height: 325px;
+    padding-left: 5%;
+    width: 480px;
+    padding-right: 4%;
+    padding-top: 10%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 50%;
+    margin-top: 10%;
+  }
+</style>
+
+</html>
